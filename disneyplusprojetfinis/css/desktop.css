@@ -1,0 +1,33 @@
+/* ==============================
+   desktop.css
+   Styles pour grands écrans (min 769px)
+============================== */
+
+@import url('style.css');
+
+.nav { padding: 20px 40px; }
+.nav-logo img { height: 38px; }
+
+.accueil-titre { font-size: 2.5rem; line-height: 1.15; }
+.accueil-contenu { max-width: 900px; }
+.accueil-formulaire { max-width: 540px; }
+
+.exclusif-texte { left: 60px; max-width: 360px; top: 28%; }
+.exclusif-titre { font-size: 1.6rem; }
+
+.tarifs { padding: 60px 40px 40px; }
+.tarifs-titre { font-size: 1.9rem; }
+
+.appareils { padding: 80px 40px 60px; }
+.appareils-titre { font-size: 2rem; }
+.appareils-avantages { grid-template-columns: repeat(3, 1fr); gap: 40px; }
+
+.faq { padding: 80px 40px; }
+.faq-titre { font-size: 2rem; }
+
+.plateformes { padding: 80px 40px; }
+.plateformes-titre { font-size: 2rem; }
+.plateformes-grille { grid-template-columns: repeat(4, 1fr); }
+.plateforme-icone { width: 140px; height: 140px; }
+
+.pied-de-page { padding: 60px 40px 30px; }
